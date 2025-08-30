@@ -1,6 +1,6 @@
 {
   "name": "ripplio",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "source": "./src/index.ts",
   "main": "./dist/index.js",
@@ -58,7 +58,6 @@
     "@biomejs/biome": "^2.2.2",
     "@types/node": "^24.3.0",
     "@types/react": "^19.1.12",
-    "changeset": "^0.2.6",
     "react": "^19.1.1",
     "tsup": "^8.5.0",
     "typescript": "~5.9.2",
