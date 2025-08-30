@@ -1,6 +1,6 @@
 {
   "name": "ripplio",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "source": "./src/index.ts",
   "main": "./dist/index.js",
@@ -22,9 +22,6 @@
     "build": "pnpm run clean && pnpm run build:types && pnpm run build:js",
     "build:types": "tsc --emitDeclarationOnly --declarationMap",
     "build:js": "tsup",
-    "changeset": "changeset",
-    "version": "changeset version",
-    "release": "changeset publish",
     "clean": "rm -rf dist",
     "lint": "biome lint",
     "lint:fix": "biome lint --fix",
