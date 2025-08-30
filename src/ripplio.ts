@@ -1,5 +1,3 @@
-// ripplio.ts
-
 export type Primitive = string | number | boolean | bigint | symbol | null | undefined;
 export type Path = ReadonlyArray<string>;
 export type DepKey = string; // "a.b.c"  or  "__computed__:a.b"
