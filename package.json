@@ -1,6 +1,6 @@
 {
   "name": "ripplio",
-  "version": "0.0.7",
+  "version": "0.0.1 ",
   "type": "module",
   "source": "./src/index.ts",
   "main": "./dist/index.js",
