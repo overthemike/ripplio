@@ -16,6 +16,7 @@
     "lineWidth": 100,
     "includes": [
       "**",
+      "**/examples/**",
       "!**/.turbo/**",
       "!**/.vscode/**",
       "!**/dist/**",
@@ -25,9 +26,9 @@
   },
   "javascript": {
     "formatter": {
-      "semicolons": "asNeeded",
       "quoteStyle": "double",
-      "trailingCommas": "all"
+      "trailingCommas": "all",
+      "semicolons": "asNeeded"
     }
   },
   "linter": {
@@ -40,6 +41,7 @@
     },
     "includes": [
       "**",
+      "!**/examples/**",
       "!**/tests/**",
       "!**/.turbo",
       "!**/.vscode/**",

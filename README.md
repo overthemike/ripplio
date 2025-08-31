@@ -95,11 +95,11 @@ function TaxControl() {
   return (
     <div>
       <span>Tax: {taxRate}</span>
-      <button onClick={() => (state.taxRate = +(Math.min(0.25, taxRate + 0.01).toFixed(2)))}
+      <button onClick={() => (state.taxRate = +(Math.min(0.25, taxRate + 0.01)))}
       >
         +0.01
       </button>
-      <button onClick={() => (state.taxRate = +(Math.max(0, taxRate - 0.01).toFixed(2)))}
+      <button onClick={() => (state.taxRate = +(Math.max(0, taxRate - 0.01)))}
       >
         -0.01
       </button>
