@@ -1,7 +1,6 @@
 # ripplio _(experimental)_
 
 > NOTE: If you want to read about the basic ideas behind this: https://dev.to/overthemike/cosplay-and-wiretapping-javascripts-hidden-superpowers-1gcm
-> NOTE: I also turned this into an experimental reactive state management library for React
 
 An experimental, fine-grained reactive state manager for React — **heavily inspired by [Valtio]** — with:
 
